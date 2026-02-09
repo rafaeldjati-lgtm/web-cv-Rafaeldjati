@@ -1,0 +1,94 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+body {
+    background: #f4f6f8;
+    padding: 40px;
+}
+
+.cv {
+    max-width: 900px;
+    margin: auto;
+    display: flex;
+    background: #fff;
+    border-radius: 12px;
+    overflow: hidden;
+    box-shadow: 0 10px 25px rgba(0,0,0,0.1);
+}
+
+/* Sidebar */
+.sidebar {
+    width: 30%;
+    background: #1e293b;
+    color: #fff;
+    padding: 30px;
+}
+
+.profile-img {
+    width: 100%;
+    border-radius: 10px;
+    margin-bottom: 15px;
+}
+
+.sidebar h2 {
+    margin-top: 10px;
+}
+
+.job-title {
+    font-size: 14px;
+    color: #cbd5e1;
+    margin-bottom: 20px;
+}
+
+.section {
+    margin-bottom: 20px;
+}
+
+.section h3 {
+    font-size: 16px;
+    margin-bottom: 10px;
+    border-bottom: 1px solid #475569;
+    padding-bottom: 5px;
+}
+
+.section ul {
+    list-style: none;
+}
+
+.section ul li {
+    font-size: 14px;
+    margin-bottom: 5px;
+}
+
+/* Content */
+.content {
+    width: 70%;
+    padding: 30px;
+}
+
+.content section {
+    margin-bottom: 25px;
+}
+
+.content h3 {
+    color: #1e293b;
+    margin-bottom: 10px;
+}
+
+.item h4 {
+    font-weight: 600;
+}
+
+.item span {
+    font-size: 13px;
+    color: #64748b;
+}
+
+.item ul {
+    margin-left: 20px;
+    margin-top: 5px;
+}
